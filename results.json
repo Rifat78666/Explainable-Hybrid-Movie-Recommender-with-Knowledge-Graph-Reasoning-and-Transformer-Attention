@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "num_users": 6040,
+  "num_movies": 3657,
+  "num_ratings_total": 997313,
+  "kg_triples": 10125,
+  "test_rmse": {
+    "branch1_ncf": 0.9171001419351975,
+    "branch_ncf_kg": 0.9186861973351191,
+    "branch2_ncf_text": 0.900428941948834,
+    "branch3_ncf_text_kg": 0.9005299556760467
+  },
+  "best_model": "NCF + Text"
+}
